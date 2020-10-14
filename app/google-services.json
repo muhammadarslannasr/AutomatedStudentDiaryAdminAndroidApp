@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "29975357594",
+    "firebase_url": "https://automatedstudentdiaryadmin.firebaseio.com",
+    "project_id": "automatedstudentdiaryadmin",
+    "storage_bucket": "automatedstudentdiaryadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29975357594:android:803f062271827396",
+        "android_client_info": {
+          "package_name": "com.marslannasr.automatedstudentdiaryadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29975357594-89b072d1fi0ktfut7ndvbo5kacl56enn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marslannasr.automatedstudentdiaryadmin",
+            "certificate_hash": "5d259c07ef0590304760d6fd8bc654774cb1e096"
+          }
+        },
+        {
+          "client_id": "29975357594-7kb3eqfuv1m52jtsc8apr9k9apokg9oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbHVdOeVXDs_-nJsJvulvcZB4tlnf9gJM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29975357594-7kb3eqfuv1m52jtsc8apr9k9apokg9oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

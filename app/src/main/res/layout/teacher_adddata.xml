@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <!--<android.support.v7.widget.Toolbar android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+    <!--android:background="?attr/colorPrimary"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/teacherName_ID"
+                android:hint="Teacher Name"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:inputType="textPersonName"
+                android:paddingLeft="16dp"
+                android:background="@drawable/style_edittext"
+                android:layout_width="300dp"
+                android:layout_height="45dp" />
+
+            <EditText
+                android:id="@+id/teacherQulifiacationTextId"
+                android:hint="Qualification"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:paddingLeft="16dp"
+                android:background="@drawable/style_edittext"
+                android:layout_width="300dp"
+                android:layout_height="45dp" />
+
+            <EditText
+                android:id="@+id/teacherUniTextID"
+                android:hint="University"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="16dp"
+                android:inputType="textPersonName"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+
+            <LinearLayout
+                android:id="@+id/genderlayoutId"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="16sp"
+                    android:text="Gender:"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Spinner
+                    android:id="@+id/teacherspinner2genderId"
+                    android:layout_width="100dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="45dp"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="16dp"
+                    android:background="@drawable/style_edittext" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/teachermobilenumberTextId"
+                android:hint="Phone Number"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:layout_width="300dp"
+                android:paddingLeft="16dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+            <!--<EditText-->
+                <!--android:id="@+id/teacherEmailID"-->
+                <!--android:hint="Email"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:inputType="textEmailAddress"-->
+                <!--android:layout_width="300dp"-->
+                <!--android:paddingLeft="16dp"-->
+                <!--android:background="@drawable/style_edittext"-->
+                <!--android:layout_height="45dp" />-->
+
+            <Button
+                android:id="@+id/teacher_submitbuttonId"
+                android:text="Submit"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:background="#5E9DC0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

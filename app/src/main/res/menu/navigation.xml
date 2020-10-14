@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_manageStud"
+        android:icon="@mipmap/group"
+        android:title="Student" />
+
+
+    <item
+        android:id="@+id/navigation_manageTeac"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="Teacher" />
+
+    <item
+        android:id="@+id/navigation_manageTimetable"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        android:title="TimeTable" />
+
+    <item
+        android:id="@+id/navigation_manageSubject"
+        android:icon="@drawable/ic_subject_black_24dp"
+        android:title="Subject" />
+
+    <item
+        android:id="@+id/navigation_manageSchedule"
+        android:icon="@drawable/ic_schedule_black_24dp"
+        android:title="Schedule" />
+
+
+</menu>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_height="match_parent">
+
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/all_profile_image"
+            android:src="@mipmap/default_image"
+            android:layout_width="85dp"
+            android:layout_height="85dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TableRow
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/editButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@android:drawable/ic_menu_edit" />
+
+                <Button
+                    android:id="@+id/deleteButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@android:drawable/ic_delete"/>
+
+            </TableRow>
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="RollNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/stud_rollnumbernameId"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Student RollNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/stud_firstnameId"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Student name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Father Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Father name"
+                android:id="@+id/stud_fathernameID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Date of Birth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Date of Birth"
+                android:id="@+id/stud_dateofbitthID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Gender"
+                android:id="@+id/stud_genderID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Phone Number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:text="Phone Number"
+                android:id="@+id/stud_phonenumID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Home Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Home Address"
+                android:id="@+id/stud_addressID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Program"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Program"
+                android:id="@+id/stud_programID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Attendence By Month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Attendence By Month"
+                android:id="@+id/stud_attendenceMonthID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Student Result"
+                android:id="@+id/stud_resultID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="Fees Record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Fees Record"
+                android:id="@+id/stud_feesRecordID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Date"
+                android:id="@+id/stud_dateID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

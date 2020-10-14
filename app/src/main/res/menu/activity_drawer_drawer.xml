@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/group"
+            android:title="Students Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Teacher Profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_subject_black_24dp"
+            android:title="Subject" />
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule_black_24dp"
+            android:title="Schedule" />
+    </group>
+
+    <item android:title="Logout.......">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
